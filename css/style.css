@@ -1,0 +1,59 @@
+/* Color Theme Swatches in Hex */
+.Voodoo-1-hex {
+  color: #af1444;
+}
+.Voodoo-2-hex {
+  color: #d91e41;
+}
+.Voodoo-3-hex {
+  color: #ecc01d;
+}
+.Voodoo-4-hex {
+  color: #039675;
+}
+.Voodoo-5-hex {
+  color: #2f426c;
+}
+
+/* Color Theme Swatches in RGBA */
+.Voodoo-1-rgba {
+  color: rgba(175, 20, 68, 1);
+}
+.Voodoo-2-rgba {
+  color: rgba(216, 29, 65, 1);
+}
+.Voodoo-3-rgba {
+  color: rgba(235, 191, 28, 1);
+}
+.Voodoo-4-rgba {
+  color: rgba(2, 149, 117, 1);
+}
+.Voodoo-5-rgba {
+  color: rgba(47, 66, 107, 1);
+}
+
+/* Color Theme Swatches in HSLA */
+.Voodoo-1-hsla {
+  color: hsla(341, 79, 38, 1);
+}
+.Voodoo-2-hsla {
+  color: hsla(348, 75, 48, 1);
+}
+.Voodoo-3-hsla {
+  color: hsla(47, 84, 51, 1);
+}
+.Voodoo-4-hsla {
+  color: hsla(166, 96, 29, 1);
+}
+.Voodoo-5-hsla {
+  color: hsla(221, 39, 30, 1);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
