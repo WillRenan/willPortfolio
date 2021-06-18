@@ -1,4 +1,4 @@
-/* Color Theme Swatches in Hex */
+/* Color Theme Swatches in Hex 
 .Voodoo-1-hex {
   color: #af1444;
 }
@@ -15,7 +15,7 @@
   color: #2f426c;
 }
 
-/* Color Theme Swatches in RGBA */
+/* Color Theme Swatches in RGBA 
 .Voodoo-1-rgba {
   color: rgba(175, 20, 68, 1);
 }
@@ -32,7 +32,7 @@
   color: rgba(47, 66, 107, 1);
 }
 
-/* Color Theme Swatches in HSLA */
+/* Color Theme Swatches in HSLA 
 .Voodoo-1-hsla {
   color: hsla(341, 79, 38, 1);
 }
@@ -47,13 +47,73 @@
 }
 .Voodoo-5-hsla {
   color: hsla(221, 39, 30, 1);
-}
+}*/
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  list-style: none;
+  font-size: 1.2rem;
+  font-family: Arial, Helvetica, sans-serif;
 }
 html,
 body {
   height: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+h1 {
+  text-align: center;
+  font-size: 80px;
+  text-transform: uppercase;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #282a36;
+}
+
+.menu {
+  display: flex;
+}
+
+.menu li {
+  margin-left: 10px;
+}
+
+.menu li a {
+  padding: 10px;
+  background-color: yellowgreen;
+  border-radius: 10px;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.flex > div {
+  flex: 1 1 200px;
+  margin: 10px;
+  text-align: center;
+  border-radius: 10px;
+
+  background-color: rgb(253, 253, 253);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+.flex div img {
+  margin-top: 10px;
 }
